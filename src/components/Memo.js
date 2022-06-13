@@ -8,7 +8,7 @@ const createUser = (name, surname) => {
   return user
 }
 
-function App() {
+export const Memo = () => {
   const [name, setName]=useState('')
   const [surName, setSurName]=useState('')
   const [count, setCount]=useState(0)
@@ -24,5 +24,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
